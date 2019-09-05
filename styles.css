@@ -9,6 +9,12 @@
 	width: 1200px;
 }
 
+body {
+	background-color: #76936B;
+}
+
+/* Navbar code */
+
 nav {
 	background-color: #5E595E;
 	padding: 20px;
@@ -30,6 +36,10 @@ nav li {
 	color: #C2BAC2;
 }
 
+.homePage {
+	color: #A1C692;
+}
+
 a {
 	text-decoration: none;
   	color: #C2BAC2;
@@ -39,10 +49,57 @@ a:hover {
   color: #C692C6;
 }
 
+/* central div code */
+
+main .container {
+	padding-top: 50px;
+}
+
+.heroPicture {
+	background-image: url("IMG_2160.jpg");
+	background-size: cover;	
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+	border: 5px solid #000000;
+}
+
+main h1 {
+	text-align: center;
+	background-color: #A1C692;
+	border: 5px solid #000000;
+	font-size: 35px;
+	word-spacing: 2px;
+}
+
+.heroTop {
+	position: relative;
+	bottom: 50px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.heroBottom {
+	width: 350px;
+	margin: 0 auto;
+	margin-top: 595px;
+	
+}
+
+/* Responsiveness */
+
 @media screen and (max-width: 1200px){
 	.container {
 		width: 900px;
 		margin: 0 auto;
+	}
+	
+	.heroTop {
+		width: 200px;
+	}
+	
+	.heroBottom {
+		width: 350px;
 	}
 }
 
@@ -51,12 +108,15 @@ a:hover {
 		width: 600px;
 		margin: 0 auto;
 	}
+	
+	section .container {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 600px){
 	.container {
 		width: 100%;
-		margin: 0 auto;
 	}
 	
 	nav li {
