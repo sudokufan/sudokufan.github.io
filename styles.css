@@ -86,6 +86,13 @@ main h1 {
 	
 }
 
+/* About Me page code */
+
+.centralDiv {
+	border: 5px solid #000000;	
+}
+
+
 /* Responsiveness */
 
 @media screen and (max-width: 1200px){
