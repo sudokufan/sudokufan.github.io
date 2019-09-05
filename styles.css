@@ -11,11 +11,16 @@
 
 nav {
 	background-color: #5E595E;
+	padding: 20px;
 }
 
 nav .container {
 	overflow: auto;
 	text-align: center;
+}
+
+nav ul {
+	margin: 0 auto;
 }
 
 nav li {
