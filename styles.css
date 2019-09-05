@@ -92,12 +92,18 @@ main h1 {
 /* About Me page code */
 
 .centralDiv {
-	border: 5px solid #000000;	
+	opacity: 0.3;
 }
 
 details {
-	
+	overflow: auto;
 }
+
+details ul {
+	float: left;
+	width: 50%;
+}
+
 
 
 /* Responsiveness */
