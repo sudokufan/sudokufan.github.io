@@ -86,6 +86,12 @@ main h1 {
 	
 }
 
+/* About Me code */
+
+.aboutMe {
+	border: solid 5px #000000;
+}
+
 /* Responsiveness */
 
 @media screen and (max-width: 1200px){
