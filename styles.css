@@ -43,12 +43,16 @@ a:hover {
 
 /* central div code */
 
+main .container {
+	padding-top: 100px;
+}
+
 .heroPicture {
 	background-image: url("IMG_2160.jpg");
 	background-size: cover;	
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 100px
+	height: 700px
 }
 
 /* Responsiveness */
