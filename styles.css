@@ -9,6 +9,8 @@
 	width: 1200px;
 }
 
+/* Navbar code */
+
 nav {
 	background-color: #5E595E;
 	padding: 20px;
@@ -38,6 +40,14 @@ a {
 a:hover {
   color: #C692C6;
 }
+
+/* central div code */
+
+.heroPicture {
+	background-image: IMG_2160.jpg;
+}
+
+/* Responsiveness */
 
 @media screen and (max-width: 1200px){
 	.container {
