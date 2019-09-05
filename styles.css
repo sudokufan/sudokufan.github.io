@@ -55,15 +55,16 @@ main .container {
 	height: 700px
 }
 
-.heroText {
+main h1 {
 	text-align: center;
 	background-color: #FFFFFF;
 	border-width: 10px;
 	border-color: #000000;
+	font-size: 35px;
 }
 
-.heroText .top {
-	margin-bottom: 50px;
+.heroTop {
+	margin-bottom: 500px;
 }
 
 /* Responsiveness */
