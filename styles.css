@@ -92,6 +92,15 @@ main h1 {
 	border: solid 5px #000000;
 }
 
+.aboutBoxes {
+	overflow: auto;
+}
+
+.aboutBoxes h1 {
+	float: left;
+	width: 50;
+}
+
 /* Responsiveness */
 
 @media screen and (max-width: 1200px){
