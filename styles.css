@@ -55,6 +55,17 @@ main .container {
 	height: 700px
 }
 
+.heroText {
+	text-align: center;
+	background-color: #FFFFFF;
+	border-width: 10px;
+	border-color: #000000;
+}
+
+.heroText .top {
+	margin-bottom: 50px;
+}
+
 /* Responsiveness */
 
 @media screen and (max-width: 1200px){
