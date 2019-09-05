@@ -91,6 +91,11 @@ main h1 {
 
 /* About Me page code */
 
+aboutBox {
+	width: 900px;
+	margin: 0 auto;
+}
+
 summary {
 	float: left;
 	border: 5px solid #000000
@@ -100,10 +105,12 @@ summary {
 
 .professionalAbout {
 	float: left;
+	margin-left: 100px;
 }
 
 .personalAbout {
 	float: right;
+	margin-right: 100px;
 }
 
 /* Responsiveness */
