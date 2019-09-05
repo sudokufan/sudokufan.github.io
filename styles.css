@@ -101,7 +101,8 @@ main h1 {
 
 .aboutBoxes h1 {
 	float: left;
-	width: 50;
+	width: 50%;
+	margin: 0 auto;
 }
 
 /* Responsiveness */
