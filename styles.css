@@ -4,13 +4,13 @@
 	font-weight: bold;
 }
 
+.aboutPage {
+	background-color: #C2BAC2;
+}
+
 .container {
 	margin: 0 auto;
 	width: 1200px;
-}
-
-body {
-	background-color: #76936B;
 }
 
 li {
@@ -86,21 +86,13 @@ main h1 {
 	width: 350px;
 	margin: 0 auto;
 	margin-top: 595px;
-	
 }
 
 /* About Me page code */
 
-aboutBox {
-	width: 900px;
-	margin: 0 auto;
-}
-
 summary {
 	float: left;
 	border: 5px solid #000000
-	width: 50%;
-	margin: 0 auto;
 }
 
 .professionalAbout {
