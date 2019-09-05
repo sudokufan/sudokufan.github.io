@@ -10,15 +10,18 @@
 }
 
 nav {
-	overflow: auto;
 	background-color: #5E595E;
+}
+
+nav .container {
+	overflow: auto;
+	text-align: center;
 }
 
 nav li {
 	list-style: none;
 	float: left;
-	margin-left: 50px;
-	margin-bottom: 20px;
+	width: 25%;
 }
 
 a:link {
