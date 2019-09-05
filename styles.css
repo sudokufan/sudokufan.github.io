@@ -9,6 +9,10 @@
 	width: 1200px;
 }
 
+body {
+	background-color: #A1C692;
+}
+
 /* Navbar code */
 
 nav {
@@ -30,6 +34,10 @@ nav li {
 	float: left;
 	width: 25%;
 	color: #C2BAC2;
+}
+
+.homePage {
+	color: #A1C692;
 }
 
 a {
@@ -58,13 +66,13 @@ main .container {
 main h1 {
 	text-align: center;
 	background-color: #FFFFFF;
-	border: 10px solid #000000;
+	border: 5px solid #000000;
 	font-size: 35px;
 }
 
 .heroTop {
 	position: relative;
-	bottom: 30px;
+	bottom: 25px;
 	width: 20%;
 	margin: 0 auto;
 }
@@ -72,7 +80,7 @@ main h1 {
 .heroBottom {
 	width: 30%;
 	margin: 0 auto;
-	margin-top: 610px;
+	margin-top: 620px;
 	
 }
 
