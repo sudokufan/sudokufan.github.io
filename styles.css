@@ -91,10 +91,6 @@ main h1 {
 
 /* About Me page code */
 
-.centralDiv {
-	opacity: 0.3;
-}
-
 summary {
 	overflow: auto;
 	border: 5px solid #000000
