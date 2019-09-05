@@ -18,14 +18,17 @@ nav li {
 
 a:link {
   text-decoration: none;
+  color: #C2BAC2;
 }
 
 a:visited {
   text-decoration: none;
+  color: #C2BAC2;
 }
 
 a:hover {
   text-decoration: none;
+  color: #C692C6;
 }
 
 a:active {
