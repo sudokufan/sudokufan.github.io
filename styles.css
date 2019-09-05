@@ -92,18 +92,19 @@ main h1 {
 /* About Me page code */
 
 summary {
-	overflow: auto;
+	float: left;
 	border: 5px solid #000000
 	width: 50%;
 	margin: 0 auto;
 }
 
-summary ul {
+.professionalAbout {
 	float: left;
-	width: 50%;
 }
 
-
+.personalAbout {
+	float: right;
+}
 
 /* Responsiveness */
 
