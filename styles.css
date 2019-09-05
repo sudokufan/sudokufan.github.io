@@ -1,3 +1,15 @@
 * {
 	box-sizing: border-box;
 }
+
+nav {
+	overflow: auto;
+	background-color: #CCE5FF;
+}
+
+nav li {
+	list-style: none;
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
