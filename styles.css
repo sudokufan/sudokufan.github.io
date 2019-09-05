@@ -10,7 +10,7 @@
 }
 
 body {
-	background-color: #A1C692;
+	background-color: #76936B;
 }
 
 /* Navbar code */
@@ -61,18 +61,19 @@ main .container {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
+	border: 5px solid #000000;
 }
 
 main h1 {
 	text-align: center;
-	background-color: #FFFFFF;
+	background-color: #A1C692;
 	border: 5px solid #000000;
 	font-size: 35px;
 }
 
 .heroTop {
 	position: relative;
-	bottom: 25px;
+	bottom: 50px;
 	width: 20%;
 	margin: 0 auto;
 }
@@ -80,7 +81,7 @@ main h1 {
 .heroBottom {
 	width: 30%;
 	margin: 0 auto;
-	margin-top: 620px;
+	margin-top: 595px;
 	
 }
 
