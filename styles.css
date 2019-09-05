@@ -13,6 +13,10 @@ body {
 	background-color: #76936B;
 }
 
+li {
+	list-style: none;
+}
+
 /* Navbar code */
 
 nav {
@@ -30,7 +34,6 @@ nav ul {
 }
 
 nav li {
-	list-style: none;
 	float: left;
 	width: 25%;
 	color: #C2BAC2;
