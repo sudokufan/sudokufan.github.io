@@ -13,10 +13,6 @@ body {
 	background-color: #76936B;
 }
 
-li {
-	list-style: none;
-}
-
 /* Navbar code */
 
 nav {
@@ -34,6 +30,7 @@ nav ul {
 }
 
 nav li {
+	list-style: none;
 	float: left;
 	width: 25%;
 	color: #C2BAC2;
@@ -87,22 +84,6 @@ main h1 {
 	margin: 0 auto;
 	margin-top: 595px;
 	
-}
-
-/* About Me code */
-
-.aboutMe {
-	border: solid 5px #000000;
-}
-
-.aboutBoxes {
-	overflow: auto;
-}
-
-.aboutBoxes h1 {
-	float: left;
-	width: 50%;
-	margin: 0 auto;
 }
 
 /* Responsiveness */
