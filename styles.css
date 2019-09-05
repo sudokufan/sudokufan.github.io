@@ -44,7 +44,7 @@ a:hover {
 /* central div code */
 
 main .container {
-	padding-top: 100px;
+/*	padding-top: 100px;*/
 }
 
 .heroPicture {
@@ -52,19 +52,25 @@ main .container {
 	background-size: cover;	
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 700px
+	height: 700px;
+	position: relative;
 }
 
 main h1 {
 	text-align: center;
 	background-color: #FFFFFF;
-	border-width: 10px;
-	border-color: #000000;
+	border: 10px solid #000000;
 	font-size: 35px;
 }
 
 .heroTop {
-	margin-bottom: 500px;
+/*	margin-bottom: 500px;*/
+}
+
+.heroBottom {
+/*	position: absolute;*/
+	bottom: 0;
+	left: 50%;
 }
 
 /* Responsiveness */
