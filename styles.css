@@ -60,14 +60,20 @@ main h1 {
 	background-color: #FFFFFF;
 	border: 10px solid #000000;
 	font-size: 35px;
-	width: 30%;
-	margin: 0 auto;
 }
 
 .heroTop {
-	margin-bottom: 610px;
 	position: relative;
 	bottom: 30px;
+	width: 20%;
+	margin: 0 auto;
+}
+
+.heroBottom {
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 610px;
+	
 }
 
 /* Responsiveness */
