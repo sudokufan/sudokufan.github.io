@@ -132,6 +132,12 @@ summary li {
 	margin: 0 auto;
 }
 
+.portfolioCentering h2 {
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+}
+
 .portfolio1 {
 	border-radius: 10px;
 	width: 300px;
