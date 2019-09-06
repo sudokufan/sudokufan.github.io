@@ -4,10 +4,6 @@
 	font-weight: bold;
 }
 
-.aboutPage {
-	background-color: #C2BAC2;
-}
-
 .container {
 	margin: 0 auto;
 	width: 1200px;
@@ -89,6 +85,18 @@ main h1 {
 }
 
 /* About Me page code */
+
+.aboutPage {
+	background-color: #C2BAC2;
+}
+
+.aboutPage .heroTop {
+	width: 220px;
+}
+
+.aboutPage .heroPicture {
+	background-image: url("IMG_2160_opacity.jpg");
+}
 
 summary {
 	float: left;
