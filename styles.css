@@ -123,7 +123,18 @@ summary li {
 
 /* Contact page code */
 
+.contactPage .heroPicture {
+	background-image: url("contact.jpg");
+}
 
+.contactBox {
+	text-align: center;
+	font-size: 20px;	
+}
+
+.contactBox a {
+	color: #000000;
+}
 
 /* Responsiveness */
 
