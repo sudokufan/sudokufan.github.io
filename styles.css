@@ -121,6 +121,12 @@ summary li {
 	border-left: 5px solid #000000;
 }
 
+/* Portfolio page code */
+
+.portfolioPage .heroPicture {
+	background-image: url("portfolio.jpg");
+}
+
 /* Contact page code */
 
 .contactPage .heroPicture {
@@ -187,7 +193,7 @@ summary li {
 	}
 	
 	.contactPage .heroPicture {
-		height: 300px;
+		height: 400px;
 	}
 	
 	.indexPage .heroPicture {
