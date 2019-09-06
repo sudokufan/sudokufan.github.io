@@ -129,11 +129,16 @@ summary li {
 
 .contactBox {
 	text-align: center;
-	font-size: 20px;	
+	font-size: 25px;
+	padding-top: 150px;	
 }
 
 .contactBox a {
 	color: #000000;
+}
+
+.contactBox a:hover {
+	colour: #C692C6;
 }
 
 /* Responsiveness */
