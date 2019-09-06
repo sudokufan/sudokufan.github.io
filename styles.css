@@ -108,6 +108,10 @@ summary {
 	text-align: center;
 }
 
+summary ul {
+	padding: 0px;
+}
+
 summary li {
 	padding: 10px;
 }
