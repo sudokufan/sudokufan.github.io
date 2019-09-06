@@ -129,6 +129,8 @@ summary li {
 
 .portfolioScreenshot {
 	border-radius: 10px;
+	width: 33%;
+	background-image: url("coming-soon.jpg");
 }
 
 /* Contact page code */
