@@ -127,13 +127,18 @@ summary li {
 	background-image: url("portfolio.jpg");
 }
 
+.portfolioCentering {
+	width: 500px;
+	margin: 0 auto;
+}
+
 .portfolioScreenshot {
 	border-radius: 10px;
 	width: 33%;
 	background-image: url("coming-soon.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 150px;
 	float: left;
 }
 
