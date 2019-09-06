@@ -131,6 +131,10 @@ summary li {
 	border-radius: 10px;
 	width: 33%;
 	background-image: url("coming-soon.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 200px;
+	float: left;
 }
 
 /* Contact page code */
