@@ -105,6 +105,7 @@ summary {
 	height: 670px;
 	position: relative;
 	bottom: 75px;
+	text-align: center;
 }
 
 summary li {
@@ -113,7 +114,6 @@ summary li {
 
 .personalAbout {
 	border-left: 5px solid #000000;
-	text-align: right;
 }
 
 /* Responsiveness */
