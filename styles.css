@@ -127,6 +127,10 @@ summary li {
 	background-image: url("portfolio.jpg");
 }
 
+.portfolioScreenshot {
+	border-radius: 10px;
+}
+
 /* Contact page code */
 
 .contactPage .heroPicture {
