@@ -55,7 +55,7 @@ main .container {
 }
 
 .heroPicture {
-	background-image: url("IMG_2160.jpg");
+	background-image: url("index.jpg");
 	background-size: cover;	
 	background-repeat: no-repeat;
 	background-position: center;
@@ -95,7 +95,7 @@ main h1 {
 }
 
 .aboutPage .heroPicture {
-	background-image: url("IMG_2160_opacity.jpg");
+	background-image: url("about.jpeg");
 }
 
 summary {
@@ -113,7 +113,7 @@ summary ul {
 }
 
 summary li {
-	padding: 10px;
+	padding: 20px;
 }
 
 .personalAbout {
