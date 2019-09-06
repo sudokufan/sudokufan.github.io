@@ -128,18 +128,31 @@ summary li {
 }
 
 .portfolioCentering {
-	width: 500px;
+	width: 950px;
 	margin: 0 auto;
+}
+
+.portfolio1 {
+	border-radius: 10px;
+	width: 300px;
+	margin-right: 10px;
+	background-image: url("coming-soon.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+	float: left;
 }
 
 .portfolioScreenshot {
 	border-radius: 10px;
-	width: 33%;
+	width: 300px;
+	margin-right: 10px;
 	background-image: url("coming-soon.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 150px;
+	height: 300px;
 	float: left;
+	opacity: 0.3;
 }
 
 /* Contact page code */
