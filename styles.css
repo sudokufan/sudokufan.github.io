@@ -127,6 +127,10 @@ summary li {
 	background-image: url("contact.jpg");
 }
 
+.contactPage .heroTop {
+	width: 250px;
+}
+
 .contactBox {
 	text-align: center;
 	font-size: 25px;
