@@ -136,7 +136,7 @@ summary li {
 	border-radius: 10px;
 	width: 300px;
 	margin-right: 10px;
-	background-image: url("coming-soon.jpg");
+	background-image: url("portfolio1.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 300px;
@@ -151,6 +151,8 @@ summary li {
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 300px;
+	position: relative;
+	top: 10px;
 	float: left;
 	opacity: 0.3;
 }
