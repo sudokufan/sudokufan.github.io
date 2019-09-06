@@ -200,12 +200,6 @@ summary li {
 
 /* Responsiveness */
 
-@media screen and (max-height: 500px) {
-	.contactBox {
-		padding-top: 0px;	
-	}
-}
-
 @media screen and (max-width: 1200px) {
 	.container {
 		width: 900px;
@@ -218,6 +212,14 @@ summary li {
 	
 	.heroBottom {
 		width: 350px;
+	}
+	
+	.portfolio1 {
+		float: none;
+	}
+	
+	.portfolioScreenshot {
+		float: none;
 	}
 }
 
@@ -264,5 +266,11 @@ summary li {
 	
 	summary li {
 		padding: 10px;
+	}
+}
+
+@media screen and (max-height: 500px) {
+	.contactBox {
+		padding-top: 0px;	
 	}
 }
