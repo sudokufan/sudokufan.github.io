@@ -9,8 +9,8 @@
 	width: 1200px;
 }
 
-body {
-	background-color: #76936B;
+li {
+	list-style: none;
 }
 
 /* Navbar code */
@@ -30,7 +30,6 @@ nav ul {
 }
 
 nav li {
-	list-style: none;
 	float: left;
 	width: 25%;
 	color: #C2BAC2;
@@ -56,7 +55,7 @@ main .container {
 }
 
 .heroPicture {
-	background-image: url("IMG_2160.jpg");
+	background-image: url("index.jpg");
 	background-size: cover;	
 	background-repeat: no-repeat;
 	background-position: center;
@@ -83,7 +82,42 @@ main h1 {
 	width: 350px;
 	margin: 0 auto;
 	margin-top: 595px;
-	
+}
+
+/* About Me page code */
+
+.aboutPage {
+	background-color: #C2BAC2;
+}
+
+.aboutPage .heroTop {
+	width: 220px;
+}
+
+.aboutPage .heroPicture {
+	background-image: url("about.jpeg");
+}
+
+summary {
+	float: left;
+	width: 50%;
+	font-size: 20px;
+	height: 670px;
+	position: relative;
+	bottom: 75px;
+	text-align: center;
+}
+
+summary ul {
+	padding: 0px;
+}
+
+summary li {
+	padding: 20px;
+}
+
+.personalAbout {
+	border-left: 5px solid #000000;
 }
 
 /* Responsiveness */
@@ -112,6 +146,11 @@ main h1 {
 	section .container {
 		width: 100%;
 	}
+	
+	summary li {
+		padding: 15px;
+	}
+	
 }
 
 @media screen and (max-width: 600px){
@@ -121,5 +160,9 @@ main h1 {
 	
 	nav li {
 		width: 100%;
+	}
+	
+	summary li {
+		padding: 10px;
 	}
 }
