@@ -146,6 +146,11 @@ summary li {
 	section .container {
 		width: 100%;
 	}
+	
+	summary li {
+		padding: 15px;
+	}
+	
 }
 
 @media screen and (max-width: 600px){
@@ -155,5 +160,9 @@ summary li {
 	
 	nav li {
 		width: 100%;
+	}
+	
+	summary li {
+		padding: 10px;
 	}
 }
