@@ -13,6 +13,10 @@ li {
 	list-style: none;
 }
 
+body {
+	background-color: #C2BAC2;
+}
+
 /* Navbar code */
 
 nav {
@@ -27,6 +31,7 @@ nav .container {
 
 nav ul {
 	margin: 0 auto;
+	padding-left: 0;
 }
 
 nav li {
@@ -86,10 +91,6 @@ main h1 {
 
 /* About Me page code */
 
-.aboutPage {
-	background-color: #C2BAC2;
-}
-
 .aboutPage .heroTop {
 	width: 220px;
 }
@@ -120,9 +121,39 @@ summary li {
 	border-left: 5px solid #000000;
 }
 
+/* Contact page code */
+
+.contactPage .heroPicture {
+	background-image: url("contact.jpg");
+}
+
+.contactPage .heroTop {
+	width: 250px;
+}
+
+.contactBox {
+	text-align: center;
+	font-size: 25px;
+	padding-top: 150px;	
+}
+
+.contactBox a {
+	color: #000000;
+}
+
+.contactBox a:hover {
+	color: #C692C6;
+}
+
 /* Responsiveness */
 
-@media screen and (max-width: 1200px){
+@media screen and (max-height: 500px) {
+	.contactBox {
+		padding-top: 0px;	
+	}
+}
+
+@media screen and (max-width: 1200px) {
 	.container {
 		width: 900px;
 		margin: 0 auto;
@@ -149,6 +180,22 @@ summary li {
 	
 	summary li {
 		padding: 15px;
+	}
+	
+	.contactBox {
+		padding-top: 0px;	
+	}
+	
+	.contactPage .heroPicture {
+		height: 300px;
+	}
+	
+	.indexPage .heroPicture {
+		height: 400px;
+	}
+	
+	.indexPage .heroBottom {
+		margin-top: 295px;
 	}
 	
 }
