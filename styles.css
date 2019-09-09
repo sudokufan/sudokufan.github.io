@@ -48,14 +48,30 @@ a {
   	color: #C2BAC2;
 }
 
-a:hover {
-  color: #C692C6;
+nav li:nth-child(1):hover {
+	color: #E3C29C;
+}
+
+nav li:nth-child(2):hover {
+	color: #D5A6CE;
+}
+
+nav li:nth-child(3):hover {
+	color: #9CC4E3;
+}
+
+nav li:nth-child(4):hover {
+	color: #A1C692;
 }
 
 /* central div code */
 
 main {
 	padding-top: 50px;
+}
+
+.indexPage nav li {
+	color: #E3C29C;
 }
 
 .heroPicture {
@@ -69,7 +85,7 @@ main {
 
 main h1 {
 	text-align: center;
-	background-color: #A1C692;
+	background-color: #E3C29C;
 	border: 5px solid #000000;
 	font-size: 35px;
 	word-spacing: 2px;
@@ -89,6 +105,10 @@ main h1 {
 }
 
 /* About Me page code */
+
+.aboutPage nav li {
+	color: #D5A6CE;
+}
 
 .aboutPage .heroTop {
 	width: 220px;
@@ -111,6 +131,7 @@ main h1 {
 
 .aboutPage h1 {
 	margin-bottom: 0px;
+	background-color: #D5A6CE;
 }
 
 .aboutPage main ul:nth-child(3) {
@@ -124,8 +145,16 @@ main h1 {
 
 /* Portfolio page code */
 
+.portfolioPage nav li {
+	color: #9CC4E3;
+}
+
 .portfolioPage .heroPicture {
 	background-image: url("portfolio.jpg");
+}
+
+.portfolioPage h1 {
+	background-color: #9CC4E3;
 }
 
 .portfolioItem {
@@ -171,6 +200,14 @@ main h1 {
 
 /* Contact page code */
 
+.contactPage nav li {
+	color: #A1C692;
+}
+
+.contactPage h1 {
+	background-color: #A1C692;
+}
+
 .contactPage .heroPicture {
 	background-image: url("contact.jpg");
 }
@@ -190,7 +227,7 @@ main h1 {
 }
 
 .contactBox a:hover {
-	color: #C692C6;
+	color: #E3C29C;
 }
 
 /* Responsiveness */
