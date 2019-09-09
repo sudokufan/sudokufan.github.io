@@ -43,10 +43,6 @@ nav li {
 	color: #C2BAC2;
 }
 
-.homePage {
-	color: #A1C692;
-}
-
 a {
 	text-decoration: none;
   	color: #C2BAC2;
@@ -148,12 +144,15 @@ main h1 {
 }
 
 .build1 {
+	display: inline-block;
+	
 	border-radius: 10px;
 	margin-right: 10px;
 	background-image: url("portfolio1.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 100%;
+	width: 100%;
 }
 
 .build1:hover {
