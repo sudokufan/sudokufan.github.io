@@ -230,6 +230,10 @@ summary li {
 		margin: 0 auto;
 		margin-bottom: 20px;
 	}
+	
+	.portfolioCentering {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 900px){
@@ -260,10 +264,6 @@ summary li {
 	
 	.indexPage .heroBottom {
 		margin-top: 295px;
-	}
-	
-	.portfolioCentering {
-		width: 100%;
 	}
 	
 }
