@@ -121,6 +121,61 @@ summary li {
 	border-left: 5px solid #000000;
 }
 
+/* Portfolio page code */
+
+.portfolioPage .heroPicture {
+	background-image: url("portfolio.jpg");
+}
+
+.portfolioCentering {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.portfolioCentering h2 {
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 60px;
+	color: #000000;
+}
+
+.build1 {
+	border-radius: 10px;
+	width: 300px;
+	margin-right: 10px;
+	background-image: url("portfolio1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 190px;
+	float: left;
+}
+
+.build1:hover {
+	background-image: url("portfolioHover.png");
+}
+
+.portfolioCentering h2:hover {
+	visibility: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.portfolioScreenshot {
+	border-radius: 10px;
+	width: 300px;
+	height: 160px;
+	margin-right: 10px;
+	background-image: url("comingSoon.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 10px;
+	float: left;
+	opacity: 0.3;
+	margin-bottom: 100px;
+}
+
 /* Contact page code */
 
 .contactPage .heroPicture {
@@ -147,12 +202,6 @@ summary li {
 
 /* Responsiveness */
 
-@media screen and (max-height: 500px) {
-	.contactBox {
-		padding-top: 0px;	
-	}
-}
-
 @media screen and (max-width: 1200px) {
 	.container {
 		width: 900px;
@@ -165,6 +214,25 @@ summary li {
 	
 	.heroBottom {
 		width: 350px;
+	}
+	
+	.portfolioPage .heroPicture {
+		height: 1200px;
+	}
+	
+	.build1 {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.portfolioScreenshot {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	
+	.portfolioCentering {
+		width: 100%;
 	}
 }
 
@@ -187,7 +255,7 @@ summary li {
 	}
 	
 	.contactPage .heroPicture {
-		height: 300px;
+		height: 400px;
 	}
 	
 	.indexPage .heroPicture {
@@ -211,5 +279,11 @@ summary li {
 	
 	summary li {
 		padding: 10px;
+	}
+}
+
+@media screen and (max-height: 500px) {
+	.contactBox {
+		padding-top: 0px;	
 	}
 }
