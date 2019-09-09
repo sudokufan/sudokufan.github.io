@@ -55,9 +55,9 @@ a:hover {
 
 /* central div code */
 
-/*main .container {
+main {
 	padding-top: 50px;
-}*/
+}
 
 .heroPicture {
 	background-image: url("index.jpg");
@@ -90,10 +90,6 @@ main h1 {
 }
 
 /* About Me page code */
-
-.aboutPage main {
-	padding-top: 50px;
-}
 
 .aboutPage .heroTop {
 	width: 220px;
