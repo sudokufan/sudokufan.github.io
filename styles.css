@@ -47,19 +47,19 @@ a {
   	color: #C2BAC2;
 }
 
-nav li:nth-child(1):hover {
+nav li:nth-child(1) a:hover  {
 	color: #E3C29C;
 }
 
-nav li:nth-child(2):hover {
+nav li:nth-child(2) a:hover {
 	color: #D5A6CE;
 }
 
-nav li:nth-child(3):hover {
+nav li:nth-child(3) a:hover {
 	color: #9CC4E3;
 }
 
-nav li:nth-child(4):hover {
+nav li:nth-child(4) a:hover {
 	color: #A1C692;
 }
 
@@ -180,8 +180,9 @@ main h1 {
 	text-align: center;
 	width: 200px;
 	margin: 0 auto;
-	padding-top: 90px;
+	padding-top: 100px;
 	color: #000000;
+	padding-bottom: 100px;
 }
 
 .build1 {
