@@ -118,7 +118,7 @@ main h1 {
 	border-left: 5px solid #000000;
 }
 
-.aboutPage li {
+.aboutPage main li {
 	padding: 20px;
 }
 
@@ -245,7 +245,7 @@ main h1 {
 		width: 100%;
 	}
 	
-	summary li {
+	.aboutPage main li {
 		padding: 15px;
 	}
 	
@@ -276,7 +276,7 @@ main h1 {
 		width: 100%;
 	}
 	
-	summary li {
+	.aboutPage main li {
 		padding: 10px;
 	}
 }
