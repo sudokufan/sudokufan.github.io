@@ -134,23 +134,30 @@ main h1 {
   padding: 5px;
 }
 
+.portfolioItem div {
+	height: 250px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;
+}
+
 .portfolioItem a {
 	display: inline-block;
+	height: 100%;
+	width: 100%;
 }
 
 .portfolioItem h2 {
 	text-align: center;
 	width: 200px;
 	margin: 0 auto;
-	padding-top: 60px;
+	padding-top: 90px;
 	color: #000000;
 }
 
 .build1 {
-	border-radius: 10px;
 	background-image: url("portfolio1.png");
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 .build1:hover {
@@ -159,11 +166,7 @@ main h1 {
 
 .comingSoon {
 	background-image: url("comingSoon.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	border-radius: 10px;
 	opacity: 0.3;
-	height: 200px;
 }
 
 /* Contact page code */
@@ -207,7 +210,7 @@ main h1 {
 	}
 	
 	.portfolioPage .heroPicture {
-		height: 800px;
+		height: 900px;
 		}
 		
 	.portfolioItem {
@@ -265,7 +268,7 @@ main h1 {
 	}
 	
 	.portfolioPage .heroPicture {
-		height: 1300px;
+		height: 1700px;
 	}
 }
 
