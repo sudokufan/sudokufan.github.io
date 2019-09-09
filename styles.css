@@ -154,7 +154,6 @@ main h1 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 200px;
-	float: left;
 }
 
 .build1:hover {
@@ -210,22 +209,11 @@ main h1 {
 	}
 	
 	.portfolioPage .heroPicture {
-		height: 1200px;
-	}
-	
-	.build1 {
-		float: none;
-		margin: 0 auto;
-	}
-	
-	.comingSoon {
-		float: none;
-		margin: 0 auto;
-		margin-bottom: 20px;
-	}
-	
+		height: 800px;
+		}
+		
 	.portfolioItem {
-		width: 100%;
+		width: 50%;
 	}
 }
 
@@ -272,6 +260,10 @@ main h1 {
 	
 	.aboutPage main li {
 		padding: 10px;
+	}
+	
+	.portfolioItem {
+		width: 100%;
 	}
 }
 
