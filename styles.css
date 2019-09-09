@@ -140,7 +140,7 @@ summary li {
 	color: #000000;
 }
 
-.portfolio1 {
+.build1 {
 	border-radius: 10px;
 	width: 300px;
 	margin-right: 10px;
@@ -151,7 +151,7 @@ summary li {
 	float: left;
 }
 
-.portfolio1:hover {
+.build1:hover {
 	background-image: url("portfolioHover.png");
 }
 
@@ -220,7 +220,7 @@ summary li {
 		height: 1200px;
 	}
 	
-	.portfolio1 {
+	.build1 {
 		float: none;
 		margin: 0 auto;
 	}
@@ -260,6 +260,10 @@ summary li {
 	
 	.indexPage .heroBottom {
 		margin-top: 295px;
+	}
+	
+	.portfolioCentering {
+		width: 100%;
 	}
 	
 }
