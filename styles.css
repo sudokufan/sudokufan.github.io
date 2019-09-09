@@ -40,7 +40,7 @@ nav ul {
 nav li {
 	float: left;
 	width: 25%;
-	color: #C2BAC2;
+	color: #A1C692;
 }
 
 a {
@@ -132,7 +132,10 @@ main h1 {
   width: 33.3%;
   float: left;
   padding: 5px;
-  border-radius: 10px;
+}
+
+.portfolioItem a {
+	display: inline-block;
 }
 
 .portfolioItem h2 {
@@ -144,15 +147,10 @@ main h1 {
 }
 
 .build1 {
-	display: inline-block;
-	
 	border-radius: 10px;
-	margin-right: 10px;
 	background-image: url("portfolio1.png");
 	background-size: contain;
 	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
 }
 
 .build1:hover {
@@ -163,6 +161,7 @@ main h1 {
 	background-image: url("comingSoon.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
+	border-radius: 10px;
 	opacity: 0.3;
 	height: 200px;
 }
@@ -263,6 +262,10 @@ main h1 {
 	
 	.portfolioItem {
 		width: 100%;
+	}
+	
+	.portfolioPage .heroPicture {
+		height: 1300px;
 	}
 }
 
