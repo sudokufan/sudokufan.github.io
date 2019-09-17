@@ -313,7 +313,12 @@ main h1 {
 	.heroBottom {
 		width: 250px;
 	}
+	.aboutPage .heroPicture {
+		height: 800px;
+	}
 }
+
+
 
 
 @media screen and (max-height: 500px) {
