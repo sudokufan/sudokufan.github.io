@@ -314,10 +314,10 @@ main h1 {
 		width: 250px;
 	}
 	.aboutPage .heroPicture {
-		height: 750px;
+		height: 800px;
 	}
 	.aboutPage main ul:nth-child(3) {
-		height: 750px;
+		height: 775px;
 }
 
 
