@@ -316,6 +316,8 @@ main h1 {
 	.aboutPage .heroPicture {
 		height: 800px;
 	}
+	.aboutPage main ul:nth-child(3) {
+		height: 100%;
 }
 
 
