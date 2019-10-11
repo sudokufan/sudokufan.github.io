@@ -74,7 +74,7 @@ main {
 }
 
 .heroPicture {
-	background-image: url("index.jpg");
+	background-image: url("images/index.jpg");
 	background-size: cover;	
 	background-repeat: no-repeat;
 	background-position: center;
@@ -114,7 +114,7 @@ main h1 {
 }
 
 .aboutPage .heroPicture {
-	background-image: url("about.jpeg");
+	background-image: url("images/about.jpeg");
 }
 
 .aboutPage main ul {
@@ -149,7 +149,7 @@ main h1 {
 }
 
 .portfolioPage .heroPicture {
-	background-image: url("portfolio.jpg");
+	background-image: url("images/portfolio.jpg");
 }
 
 .portfolioPage h1 {
@@ -186,15 +186,15 @@ main h1 {
 }
 
 .build1 {
-	background-image: url("portfolio1.png");
+	background-image: url("images/portfolio1.png");
 }
 
 .build1:hover {
-	background-image: url("portfolioHover.png");
+	background-image: url("images/portfolioHover.png");
 }
 
 .comingSoon {
-	background-image: url("comingSoon.jpg");
+	background-image: url("images/comingSoon.jpg");
 	opacity: 0.3;
 }
 
@@ -209,7 +209,7 @@ main h1 {
 }
 
 .contactPage .heroPicture {
-	background-image: url("contact.jpg");
+	background-image: url("images/contact.jpg");
 }
 
 .contactPage .heroTop {
