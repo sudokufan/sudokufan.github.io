@@ -189,12 +189,16 @@ main h1 {
 	background-image: url("images/portfolio1.jpg");
 }
 
+.build1:hover {
+	background-image: url("images/portfolio1Hover.gif");
+}
+
 .build2 {
 	background-image: url("images/portfolio2.jpg");
 }
 
-.build1:hover {
-	background-image: url("images/portfolioHover.png");
+.build2:hover {
+	background-image: url("images/portfolio2Hover.gif");
 }
 
 .comingSoon {
