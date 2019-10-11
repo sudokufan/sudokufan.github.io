@@ -186,11 +186,11 @@ main h1 {
 }
 
 .build1 {
-	background-image: url("images/portfolio1.png");
+	background-image: url("images/portfolio1.jpg");
 }
 
 .build2 {
-	background-image: url("images/portfolio2.png");
+	background-image: url("images/portfolio2.jpg");
 }
 
 .build1:hover {
