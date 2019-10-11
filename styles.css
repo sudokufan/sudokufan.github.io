@@ -189,6 +189,10 @@ main h1 {
 	background-image: url("images/portfolio1.png");
 }
 
+.build2 {
+	background-image: url("images/portfolio2.png");
+}
+
 .build1:hover {
 	background-image: url("images/portfolioHover.png");
 }
