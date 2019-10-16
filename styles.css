@@ -205,6 +205,14 @@ main h1 {
 	background-image: url("images/portfolio2Hover.gif");
 }
 
+.build3 {
+	background-image: url("images/portfolio3.jpg");
+}
+
+.build3:hover {
+	background-image: url("images/portfolio3Hover.gif");
+}
+
 .comingSoon {
 	background-image: url("images/comingSoon.jpg");
 	opacity: 0.3;
