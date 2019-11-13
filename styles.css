@@ -1,233 +1,238 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-	font-family: Helvetica, sans-serif;
-	font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 li {
-	list-style: none;
+    list-style: none;
 }
 
 .home {
-	height: 100vh;
-	background-image: url("images/index.jpg");
-	background-repeat: no-repeat;
-	background-size: 100vw 100vh;
+    height: 100vh;
+    background-image: url("images/index.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
 
 .about {
-	height: 100vh;
-	background-image: url("images/about.jpg");
-	background-repeat: no-repeat;
-	background-size: 100vw 100vh;
+    height: 100vh;
+    background-image: url("images/about.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
 
 h1 {
-	background: -webkit-linear-gradient(45deg, #d07000, #000000 25%);
-	font-size: 2.5rem;
+    background: -webkit-linear-gradient(45deg, #d07000, #000000 25%);
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text {
+    position: relative;
+    word-spacing: 2px;
+}
+
+.home .text {
+    position: relative;
+    top: 50%;
+    left: 70%;
+}
+
+.about ul {
+    float: left;
+    width: 50%;
+    font-size: 2rem;
+    text-align: center;
+	padding-top: 25%;
+}
+
+.about li {
+    padding: 10px;
+	background: -webkit-linear-gradient(45deg, #71d0c5, #d00011);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-.text {
-	position: relative;
-	word-spacing: 2px;
-}
-
-.home .text {
-	position: relative;
-	top: 50%;
-	left: 70%;
-}
-
-.about ul {
-	float: left;
-	width: 50%;
-	font-size: 20px;
-	position: relative;
-	top: 50%;
-	text-align: left;
-}
-
-
 /* Portfolio page code */
 
 .portfolioPage nav li {
-	color: #9CC4E3;
+    color: #9CC4E3;
 }
 
 .portfolioPage .heroPicture {
-	background-image: url("images/portfolio.jpg");
+    background-image: url("images/portfolio.jpg");
 }
 
 .portfolioPage h1 {
-	background-color: #9CC4E3;
+    background-color: #9CC4E3;
 }
 
 .portfolioItem {
-  width: 33.3%;
-  float: left;
-  padding: 5px;
+    width: 33.3%;
+    float: left;
+    padding: 5px;
 }
 
 .portfolioItem div {
-	height: 250px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	border-radius: 10px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
 }
 
 .portfolioItem a {
-	display: inline-block;
-	height: 100%;
-	width: 100%;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
 }
 
 .portfolioItem h2 {
-	text-align: center;
-	width: 200px;
-	margin: 0 auto;
-	padding-top: 100px;
-	color: #000000;
-	padding-bottom: 100px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    color: #000000;
+    padding-bottom: 100px;
 }
 
 .build1 {
-	background-image: url("images/portfolio1.jpg");
+    background-image: url("images/portfolio1.jpg");
 }
 
 .build1:hover {
-	background-image: url("images/portfolio1Hover.gif");
+    background-image: url("images/portfolio1Hover.gif");
 }
 
 .build2 {
-	background-image: url("images/portfolio2.jpg");
+    background-image: url("images/portfolio2.jpg");
 }
 
 .build2:hover {
-	background-image: url("images/portfolio2Hover.gif");
+    background-image: url("images/portfolio2Hover.gif");
 }
 
 .build3 {
-	background-image: url("images/portfolio3.jpg");
+    background-image: url("images/portfolio3.jpg");
 }
 
 .build3:hover {
-	background-image: url("images/portfolio3Hover.gif");
+    background-image: url("images/portfolio3Hover.gif");
 }
 
 .build4 {
-	background-image: url("images/portfolio4.jpg");
+    background-image: url("images/portfolio4.jpg");
 }
 
 .build4:hover {
-	background-image: url("images/portfolio4Hover.gif");
+    background-image: url("images/portfolio4Hover.gif");
 }
 
 .comingSoon {
-	background-image: url("images/comingSoon.jpg");
-	opacity: 0.3;
+    background-image: url("images/comingSoon.jpg");
+    opacity: 0.3;
 }
 
 /* Responsiveness */
 
 @media screen and (max-width: 1200px) {
-	.container {
-		width: 900px;
-		margin: 0 auto;
-	}
-	
-	.heroTop {
-		width: 200px;
-	}
-	
-	.heroBottom {
-		width: 350px;
-	}
-	
-	.portfolioPage .heroPicture {
-		height: 900px;
-		}
-		
-	.portfolioItem {
-		width: 50%;
-	}
+    .container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .heroTop {
+        width: 200px;
+    }
+
+    .heroBottom {
+        width: 350px;
+    }
+
+    .portfolioPage .heroPicture {
+        height: 900px;
+    }
+
+    .portfolioItem {
+        width: 50%;
+    }
 }
 
-@media screen and (max-width: 900px){
-	.container {
-		width: 600px;
-		margin: 0 auto;
-	}
-	
-	section .container {
-		width: 100%;
-	}
-	
-	.aboutPage main li {
-		padding: 15px;
-	}
-	
-	.contactBox {
-		padding-top: 0px;	
-	}
-	
-	.contactPage .heroPicture {
-		height: 400px;
-	}
-	
-	.indexPage .heroPicture {
-		height: 400px;
-	}
-	
-	.indexPage .heroBottom {
-		margin-top: 295px;
-	}
-	
+@media screen and (max-width: 900px) {
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    section .container {
+        width: 100%;
+    }
+
+    .aboutPage main li {
+        padding: 15px;
+    }
+
+    .contactBox {
+        padding-top: 0px;
+    }
+
+    .contactPage .heroPicture {
+        height: 400px;
+    }
+
+    .indexPage .heroPicture {
+        height: 400px;
+    }
+
+    .indexPage .heroBottom {
+        margin-top: 295px;
+    }
+
 }
 
-@media screen and (max-width: 600px){
-	.container {
-		width: 100%;
-	}
-	
-	nav li {
-		width: 100%;
-	}
-	
-	.aboutPage main li {
-		padding: 10px;
-	}
-	
-	.portfolioItem {
-		width: 100%;
-	}
-	
-	.portfolioPage .heroPicture {
-		height: 1700px;
-	}
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    nav li {
+        width: 100%;
+    }
+
+    .aboutPage main li {
+        padding: 10px;
+    }
+
+    .portfolioItem {
+        width: 100%;
+    }
+
+    .portfolioPage .heroPicture {
+        height: 1700px;
+    }
 }
 
-@media screen and (max-width: 400px){
-	.heroBottom {
-		width: 250px;
-	}
-	.aboutPage .heroPicture {
-		height: 800px;
-	}
-	.aboutPage main ul:nth-child(3) {
-		height: 775px;
-}
+@media screen and (max-width: 400px) {
+    .heroBottom {
+        width: 250px;
+    }
+
+    .aboutPage .heroPicture {
+        height: 800px;
+    }
+
+    .aboutPage main ul:nth-child(3) {
+        height: 775px;
+    }
 
 
-
-
-@media screen and (max-height: 500px) {
-	.contactBox {
-		padding-top: 0px;	
-	}
-}
+    @media screen and (max-height: 500px) {
+        .contactBox {
+            padding-top: 0px;
+        }
+    }
