@@ -1,14 +1,3 @@
-var aTags = document.querySelectorAll('a')
-
-aTags.forEach(function (aTag) {
-    aTag.addEventListener('mouseenter', function() {
-        aTag.firstElementChild.classList.add('hidden')
-    })
-    aTag.addEventListener('mouseleave', function() {
-        aTag.firstElementChild.classList.remove('hidden')
-    })
-})
-
 onePageScroll(".main", {
     sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
     easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
