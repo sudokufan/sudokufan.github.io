@@ -84,18 +84,20 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-.portfolioInfo {
+.portfolioInfoAll {
     overflow: auto;
-    position: relative;
-    top: 10%;
     line-height: 60px;
 }
 
-.portfolio ul {
+.portfolioInfo {
     float: left;
     width: 50%;
-    font-size: 2rem;
+    /*font-size: 2rem;*/
     text-align: center;
+}
+
+.portfolioInfo h2 {
+    font-size: 2rem;
 }
 
 .portfolioItems {
