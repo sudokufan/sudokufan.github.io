@@ -11,25 +11,37 @@ li {
     list-style: none;
 }
 
-.home {
+section {
     height: 100vh;
-    background-image: url("images/index.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
+}
+
+.home {
+    background-image: url("images/index.jpg");
 }
 
 .about {
-    height: 100vh;
     background-image: url("images/about.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+}
+
+.portfolio {
+    background-image: url("images/portfolio.jpg");
+}
+
+.contact {
+    background-image: url("images/contact.jpg");
 }
 
 h1 {
-    background: -webkit-linear-gradient(45deg, #d07000, #000000 25%);
-    font-size: 2.5rem;
+    background: -webkit-linear-gradient(45deg, #d07000, #000000);
+    font-size: 3rem;
+    position: absolute;
+    line-height: 100px;
+    text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-top: 0px;
 }
 
 .text {
@@ -38,8 +50,7 @@ h1 {
 }
 
 .home .text {
-    position: relative;
-    top: 50%;
+    top: 40%;
     left: 70%;
 }
 
@@ -48,42 +59,45 @@ h1 {
     width: 50%;
     font-size: 2rem;
     text-align: center;
-	padding-top: 25%;
+    padding-top: 25%;
 }
 
 .about li {
     padding: 10px;
-	background: -webkit-linear-gradient(45deg, #71d0c5, #d00011);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(45deg, #669bd0, #79717a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-/* Portfolio page code */
-
-.portfolioPage nav li {
-    color: #9CC4E3;
-}
-
-.portfolioPage .heroPicture {
-    background-image: url("images/portfolio.jpg");
-}
-
-.portfolioPage h1 {
-    background-color: #9CC4E3;
+.top50 {
+    height: 50%;
 }
 
 .portfolioItem {
-    width: 33.3%;
-    float: left;
+    width: 50%;
+    position: relative;
+    overflow: auto;
+    top: 50px;
     padding: 5px;
 }
 
 .portfolioItem div {
     height: 250px;
+    width: 500px;
+    float: left;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
+}
+
+.portfolio h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(#79717a, #d07000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .portfolioItem a {
@@ -92,44 +106,23 @@ h1 {
     width: 100%;
 }
 
-.portfolioItem h2 {
-    text-align: center;
-    width: 200px;
+.portfolioItems {
+    position: relative;
+    top: 50%;
+    overflow: auto;
+}
+
+img {
+    float: left;
     margin: 0 auto;
-    padding-top: 100px;
-    color: #000000;
-    padding-bottom: 100px;
+    width: 50%;
 }
 
 .build1 {
-    background-image: url("images/portfolio1.jpg");
-}
-
-.build1:hover {
-    background-image: url("images/portfolio1Hover.gif");
-}
-
-.build2 {
-    background-image: url("images/portfolio2.jpg");
-}
-
-.build2:hover {
     background-image: url("images/portfolio2Hover.gif");
 }
 
-.build3 {
-    background-image: url("images/portfolio3.jpg");
-}
-
-.build3:hover {
-    background-image: url("images/portfolio3Hover.gif");
-}
-
-.build4 {
-    background-image: url("images/portfolio4.jpg");
-}
-
-.build4:hover {
+.build2 {
     background-image: url("images/portfolio4Hover.gif");
 }
 
