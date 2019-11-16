@@ -166,18 +166,22 @@ a {
     }
 
     .aboutMe ul {
-        font-size: 1.5rem;
+        font-size: 3rem;
         padding-left: 0;
     }
 }
 
 @media screen and (max-width: 650px) {
     .splashName p {
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
 
     .aboutMe ul {
-        font-size: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .contactList {
+        left: 25%;
     }
 }
 
@@ -203,7 +207,7 @@ a {
 
     .contactList a {
         line-height: 50px;
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
 }
