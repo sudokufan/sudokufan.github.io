@@ -127,6 +127,7 @@ section {
     float: left;
     margin: 0 auto;
     width: 50%;
+    opacity: 0.3;
 }
 
 .portfolioGecko {
