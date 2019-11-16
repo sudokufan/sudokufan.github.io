@@ -7,10 +7,6 @@ html {
     font-weight: bold;
 }
 
-li {
-    list-style: none;
-}
-
 section {
     height: 100vh;
     background-repeat: no-repeat;
@@ -33,15 +29,12 @@ section {
     background-image: url("images/contact.jpg");
 }
 
-.relative {
-    position: relative;
-}
-
 .paddingRight {
     padding-right: 20px;
 }
 
 .splashName {
+    position: relative;
     top: 35%;
     left: 70%;
 }
@@ -58,6 +51,7 @@ section {
 }
 
 .aboutMe {
+    position: relative;
     top: 40%;
     overflow: auto;
 }
@@ -72,6 +66,7 @@ section {
 
 .about li {
     padding: 10px;
+    list-style: none;
     background: -webkit-linear-gradient(45deg, #669bd0, #79717a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
