@@ -2,36 +2,68 @@
 <html lang="en-GB">
 
 <head>
-	<link rel="stylesheet" type="text/css" href="normalize.css" />
-	<link rel="stylesheet" type="text/css" href="styles.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Alex Day: In Development</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="onepage-scroll.css"/>
+    <script defer src="onepagescroll.js"></script>
+    <script defer src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alex Day: In Development</title>
 </head>
 
-<body class="indexPage">
-	
-	<nav>
-		<section class="container">
-			<ul>
-				<li class="homePage">HOME</li>
-				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="portfolio.html">PORTFOLIO</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
-			</ul>
-		</section>
-	</nav>
-	
-	<main>
-		<section class="container heroPicture">
-				<div class="heroTop">
-					<h1>Alex Day</h1>
-				</div>
-				<div class="heroBottom">
-					<h1>In Development</h1>
-				</div>
-		</section>
-	</main>
-	
+<body>
+<div class="main">
+    <section class="home">
+        <div class="splashName">
+            <p>Alex Day</p>
+            <p>In Development</p>
+        </div>
+    </section>
+    <section class="about">
+        <div class="aboutMe">
+            <ul>
+                <li>Full Stack Developer</li>
+                <li>Mayden Academy Graduate</li>
+                <li>Certified Scrum Master</li>
+            </ul>
+            <ul>
+                <li>National lightsaber-fighting finalist</li>
+                <li>Six-time Pok&#233;mon League Champion</li>
+                <li>Time Person of the Year 2006</li>
+            </ul>
+        </div>
+    </section>
+    <section class="portfolio">
+        <h1>Portfolio</h1>
+        <div class="portfolioInfoAll">
+            <div class="portfolioInfo">
+                <h2>Gecko Match Game</h2>
+                <h3>Made with ES6</h3>
+                <a class="paddingRight" href="https://dev.maydenacademy.co.uk/projects/2019Aug/2019-august-pairs/">Live
+                    page</a>
+                <a href="https://github.com/Mayden-Academy/2019-august-pairs">Github repo</a>
+            </div>
+            <div class="portfolioInfo">
+                <h2>Grub Recipe App</h2>
+                <h3>Made with PHP</h3>
+                <a class="paddingRight" href="http://dev.maydenacademy.co.uk/projects/2019Aug/2019-aug-grub/">Live
+                    page</a>
+                <a href="https://github.com/Mayden-Academy/2019-geckos-grub">Github repo</a>
+            </div>
+        </div>
+        <div class="portfolioItems">
+            <img src="images/portfolioGecko.gif"/>
+            <img src="images/portfolioGRUB.gif"/>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contactList">
+            <a href="https://github.com/sudokufan">Github</a><br>
+            <a href="https://www.linkedin.com/in/hirealexday/">Linkedin</a><br>
+            <a href="https://joind.in/user/simic">Joind.in</a><br>
+            <a href="mailto:separation.of.concern@gmail.com">Email</a>
+        </div>
+    </section>
+</div>
 </body>
-
 </html>
