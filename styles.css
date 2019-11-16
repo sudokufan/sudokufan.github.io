@@ -65,8 +65,8 @@ section {
 }
 
 .about li {
-    padding: 10px;
     list-style: none;
+    padding: 10px;
     background: -webkit-linear-gradient(45deg, #669bd0, #79717a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -125,26 +125,11 @@ section {
     opacity: 0.3;
 }
 
-.portfolioGecko {
-    background-image: url("images/portfolioGeckoStatic.jpg");
+.contactList {
+    position: relative;
+    left: 70%;
 }
 
-.portfolioGecko:hover {
-    background-image: url("images/portfolioGecko.gif");
-}
-
-.portfolioGRUB {
-    background-image: url("images/portfolioGRUBStatic.jpg");
-}
-
-.portfolioGRUB:hover {
-    background-image: url("images/portfolioGRUB.gif");
-}
-
-.comingSoon {
-    background-image: url("images/comingSoon.jpg");
-    opacity: 0.3;
-}
 
 /* Responsiveness */
 
