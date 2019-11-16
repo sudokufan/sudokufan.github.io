@@ -44,6 +44,8 @@ a {
     position: relative;
     top: 35%;
     left: 70%;
+    width: 375px;
+    text-align: center;
 }
 
 .splashName p {
@@ -54,7 +56,11 @@ a {
     font-size: 5rem;
     position: absolute;
     line-height: 100px;
-    text-align: center;
+    width: 375px;
+}
+
+.splashName p:nth-child(2) {
+    padding-top: 100px;
 }
 
 /* About page */
@@ -153,16 +159,19 @@ a {
 
 /* Responsiveness */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .splashName {
         left: 60%;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .splashName {
         left: 55%;
-        width: 35%;
+    }
+
+    .splashName p {
+        font-size: 4rem;
     }
 
     .aboutMe ul {
@@ -171,9 +180,13 @@ a {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
+    .splashName {
+        left: 45%;
+    }
+
     .splashName p {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .aboutMe ul {
@@ -182,6 +195,12 @@ a {
 
     .contactList {
         left: 25%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .splashName {
+        left: 30%;
     }
 }
 
