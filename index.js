@@ -13,3 +13,15 @@ onePageScroll(".main", {
                                      // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
                                      // the browser's width is less than 600, the fallback will kick in.
 });
+
+
+// var portfolioImg = document.querySelectorAll('img')
+//
+// portfolioImg.forEach(function (portfolioImg) {
+//     portfolioImg.addEventListener('mouseenter', function() {
+//         portfolioImg.firstElementChild.classList.add('hidden')
+//     })
+//     portfolioImg.addEventListener('mouseleave', function() {
+//         portfolioImg.firstElementChild.classList.remove('hidden')
+//     })
+// })

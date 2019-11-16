@@ -54,12 +54,15 @@ h1 {
     left: 70%;
 }
 
+.about .text {
+    top: 40%;
+}
+
 .about ul {
     float: left;
     width: 50%;
     font-size: 2rem;
     text-align: center;
-    padding-top: 25%;
 }
 
 .about li {
@@ -67,10 +70,6 @@ h1 {
     background: -webkit-linear-gradient(45deg, #669bd0, #79717a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.top50 {
-    height: 50%;
 }
 
 .portfolioItem {
@@ -100,30 +99,45 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-.portfolioItem a {
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-}
-
 .portfolioItems {
     position: relative;
-    top: 50%;
+    top: 35%;
     overflow: auto;
 }
 
-img {
+.portfolioInfo {
+    overflow: auto;
+    position: relative;
+    top: 20%;
+}
+
+.portfolio ul {
+    float: left;
+    width: 50%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.portfolioItems img {
     float: left;
     margin: 0 auto;
     width: 50%;
 }
 
-.build1 {
-    background-image: url("images/portfolio2Hover.gif");
+.portfolioGecko {
+    background-image: url("images/portfolioGeckoStatic.jpg");
 }
 
-.build2 {
-    background-image: url("images/portfolio4Hover.gif");
+.portfolioGecko:hover {
+    background-image: url("images/portfolioGecko.gif");
+}
+
+.portfolioGRUB {
+    background-image: url("images/portfolioGRUBStatic.jpg");
+}
+
+.portfolioGRUB:hover {
+    background-image: url("images/portfolioGRUB.gif");
 }
 
 .comingSoon {
