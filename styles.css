@@ -37,6 +37,8 @@ a {
     padding-right: 20px;
 }
 
+/* Landing page */
+
 .splashName {
     position: relative;
     top: 35%;
@@ -54,13 +56,15 @@ a {
     text-align: center;
 }
 
+/* About page */
+
 .aboutMe {
     position: relative;
     top: 40%;
     overflow: auto;
 }
 
-.about ul {
+.aboutMe ul {
     float: left;
     margin: 0;
     width: 50%;
@@ -68,13 +72,16 @@ a {
     text-align: center;
 }
 
-.about li {
+.aboutMe li {
     list-style: none;
     padding: 10px;
     background: -webkit-linear-gradient(45deg, #669bd0, #79717a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+/* Portfolio page */
 
 .portfolio h1 {
     text-align: center;
@@ -125,6 +132,8 @@ a {
     opacity: 0.3;
 }
 
+/* Contact page */
+
 .contactList {
     position: relative;
     left: 30%;
@@ -145,98 +154,56 @@ a {
 /* Responsiveness */
 
 @media screen and (max-width: 1200px) {
-    .container {
-        width: 900px;
-        margin: 0 auto;
-    }
-
-    .heroTop {
-        width: 200px;
-    }
-
-    .heroBottom {
-        width: 350px;
-    }
-
-    .portfolioPage .heroPicture {
-        height: 900px;
-    }
-
-    .portfolioItem {
-        width: 50%;
+    .splashName {
+        left: 60%;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .container {
-        width: 600px;
-        margin: 0 auto;
+    .splashName {
+        left: 55%;
+        width: 35%;
     }
 
-    section .container {
-        width: 100%;
+    .aboutMe ul {
+        font-size: 1.5rem;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .splashName p {
+        font-size: 2rem;
     }
 
-    .aboutPage main li {
-        padding: 15px;
+    .aboutMe ul {
+        font-size: 1rem;
     }
+}
 
-    .contactBox {
+@media screen and (max-height: 700px) {
+    .portfolio h1 {
         padding-top: 0px;
     }
 
-    .contactPage .heroPicture {
-        height: 400px;
-    }
-
-    .indexPage .heroPicture {
-        height: 400px;
-    }
-
-    .indexPage .heroBottom {
-        margin-top: 295px;
+    .portfolioInfoAll {
+        padding-top: 0px;
     }
 
 }
 
-@media screen and (max-width: 600px) {
-    .container {
-        width: 100%;
+@media screen and (max-height: 500px) {
+    .splashName {
+        top: 0%;
     }
 
-    nav li {
-        width: 100%;
+    .aboutMe {
+        top: 5%;
     }
 
-    .aboutPage main li {
-        padding: 10px;
+    .contactList a {
+        line-height: 50px;
+        font-size: 2rem;
     }
 
-    .portfolioItem {
-        width: 100%;
-    }
-
-    .portfolioPage .heroPicture {
-        height: 1700px;
-    }
 }
-
-@media screen and (max-width: 400px) {
-    .heroBottom {
-        width: 250px;
-    }
-
-    .aboutPage .heroPicture {
-        height: 800px;
-    }
-
-    .aboutPage main ul:nth-child(3) {
-        height: 775px;
-    }
-
-
-    @media screen and (max-height: 500px) {
-        .contactBox {
-            padding-top: 0px;
-        }
-    }
