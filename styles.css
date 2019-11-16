@@ -5,6 +5,7 @@
 html {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 62.5%;
 }
 
 section {
@@ -50,7 +51,7 @@ a {
     background: -webkit-linear-gradient(45deg, #d07000, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 3rem;
+    font-size: 5rem;
     position: absolute;
     line-height: 100px;
     text-align: center;
@@ -68,7 +69,7 @@ a {
     float: left;
     margin: 0;
     width: 50%;
-    font-size: 2rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 
@@ -86,7 +87,7 @@ a {
 .portfolio h1 {
     text-align: center;
     padding-top: 50px;
-    font-size: 3rem;
+    font-size: 5rem;
     width: 100%;
     margin: 0 auto;
     background: -webkit-linear-gradient(#79717a, #d07000);
@@ -107,21 +108,21 @@ a {
 }
 
 .portfolioInfo h2 {
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
 
 .portfolioInfo h3 {
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .portfolioInfo a {
     color: #b7b7b7;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .portfolioItems {
     position: relative;
-    top: 18%;
+    top: 15%;
     overflow: auto;
 }
 
@@ -139,14 +140,13 @@ a {
     left: 30%;
     top: 5%;
     text-align: center;
-    font-size: 2rem;
     background: -webkit-linear-gradient(#79717a, #d07000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .contactList a {
-    font-size: 3rem;
+    font-size: 5rem;
     line-height: 80px;
 }
 
