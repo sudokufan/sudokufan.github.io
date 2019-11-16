@@ -35,7 +35,7 @@ a {
 }
 
 .paddingRight {
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 /* Landing page */
@@ -195,6 +195,10 @@ a {
 
     .contactList {
         left: 25%;
+    }
+
+    .paddingRight {
+        padding-right: 20px;
     }
 }
 
