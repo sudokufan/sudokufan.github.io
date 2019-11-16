@@ -37,6 +37,10 @@ section {
     position: relative;
 }
 
+.paddingRight {
+    padding-right: 20px;
+}
+
 .splashName {
     top: 35%;
     left: 70%;
@@ -86,13 +90,13 @@ section {
 
 .portfolioInfoAll {
     overflow: auto;
-    line-height: 60px;
+    line-height: 40px;
+    padding-top: 50px;
 }
 
 .portfolioInfo {
     float: left;
     width: 50%;
-    /*font-size: 2rem;*/
     text-align: center;
 }
 
@@ -100,9 +104,22 @@ section {
     font-size: 2rem;
 }
 
+.portfolioInfo h3 {
+    font-size: 1.5rem;
+}
+
+.portfolioInfo a {
+    color: #b7b7b7;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
 .portfolioItems {
     position: relative;
-    top: 10%;
+    top: 18%;
     overflow: auto;
 }
 
