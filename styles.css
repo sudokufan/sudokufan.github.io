@@ -50,7 +50,7 @@ a {
 
 .splashName p {
     word-spacing: 2px;
-    background: -webkit-linear-gradient(45deg, #d07000, #000000 85%);
+    background: -webkit-linear-gradient(45deg, #d07000, #000000 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 5rem;
