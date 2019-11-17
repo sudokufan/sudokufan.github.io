@@ -49,7 +49,7 @@ a {
 
 .splashName p {
     word-spacing: 2px;
-    background: -webkit-linear-gradient(45deg, #d07000, #000000 95%);
+    background: -webkit-linear-gradient(45deg, #d07000, #000000 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 5rem;
@@ -127,7 +127,7 @@ a {
 
 .portfolioItems {
     position: relative;
-    top: 15%;
+    top: 10%;
     overflow: auto;
 }
 
@@ -292,7 +292,11 @@ a {
     }
 
     .portfolio h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .portfolioInfoAll {
+        line-height: 10px;
     }
 
     .portfolioInfo h2 {
