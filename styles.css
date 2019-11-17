@@ -44,13 +44,12 @@ a {
     position: relative;
     top: 35%;
     left: 70%;
-    width: 375px;
     text-align: center;
 }
 
 .splashName p {
     word-spacing: 2px;
-    background: -webkit-linear-gradient(45deg, #d07000, #000000 85%);
+    background: -webkit-linear-gradient(45deg, #d07000, #000000 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 5rem;
@@ -208,7 +207,61 @@ a {
     }
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-width: 450px){
+
+    .splashName {
+        top: 30%;
+        left: 50%;
+    }
+
+    .splashName p {
+        font-size: 2.5rem;
+        width: 175px;
+    }
+
+    .aboutMe {
+        top: 35%;
+    }
+
+    .aboutMe ul {
+        font-size: 2rem;
+    }
+
+    .portfolioInfoAll {
+        line-height: 20px;
+        padding-top: 0px;
+    }
+
+    .portfolioInfo {
+        width: 100%;
+    }
+
+    .portfolioInfo h2 {
+        font-size: 2rem;
+    }
+
+    .portfolioInfo h3 {
+        font-size: 1.5rem;
+    }
+
+    .portfolioInfo a {
+        font-size: 1.5rem;
+    }
+
+    .portfolioItems {
+        top: 2%;
+    }
+
+    .portfolioItems img {
+        width: 100%;
+    }
+
+    .contactList a {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-height: 800px) {
     .portfolio h1 {
         padding-top: 0px;
     }
@@ -219,9 +272,39 @@ a {
 
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 600px) {
     .splashName {
-        top: 0%;
+        top: 30%;
+        left: 40%;
+    }
+
+    .splashName p {
+        font-size: 2rem;
+    }
+
+    .aboutMe {
+        padding-top: 40%;
+    }
+
+    .aboutMe ul {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .portfolio h1 {
+        font-size: 2.5rem;
+    }
+
+    .portfolioInfo h2 {
+        font-size: 1.5rem;
+    }
+
+    .portfolioInfo h3 {
+        font-size: 1rem;
+    }
+
+    .portfolioInfo a {
+        font-size: 1rem;
     }
 
     .aboutMe {
@@ -230,7 +313,7 @@ a {
 
     .contactList a {
         line-height: 50px;
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
 }
