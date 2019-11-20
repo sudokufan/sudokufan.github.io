@@ -143,7 +143,6 @@ a {
 .contactList {
     position: relative;
     left: 30%;
-    top: 5%;
     text-align: center;
     background: -webkit-linear-gradient(#79717a, #d07000);
     -webkit-background-clip: text;
